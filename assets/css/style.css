@@ -90,6 +90,8 @@ Version:        1.0.0
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
 @import url('./theme.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 html {
   font-size: 15px;
 }
@@ -4495,7 +4497,7 @@ img {
   margin: 0 -15px;
   gap: 2em;
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
 }
 
 @media (max-width: 767px) {
@@ -4512,21 +4514,21 @@ img {
 
 @media (max-width: 991px) {
   .services-section-s2 .service-grids .grid, .services-section-s3 .service-grids .grid {
-    width: calc(50% - 30px);
+    /* width: calc(50% - 30px); */
   }
 }
 
 @media (max-width: 767px) {
   .services-section-s2 .service-grids .grid, .services-section-s3 .service-grids .grid {
-    width: calc(50% - 15px);
-    margin: 0 7.5px 50px;
+    /* width: calc(50% - 15px);
+    margin: 0 7.5px 50px; */
   }
 }
 
 @media (max-width: 550px) {
   .services-section-s2 .service-grids .grid, .services-section-s3 .service-grids .grid {
-    width: calc(100% - 15px);
-    float: none;
+    /* width: calc(100% - 15px);
+    float: none; */
   }
 }
 
@@ -4548,8 +4550,8 @@ img {
 }
 
 .services-section-s2 .service-grids .fi:before, .services-section-s3 .service-grids .fi:before {
-  font-size: 50px;
-  font-size: 3.33333rem;
+  font-size: 3em;
+  /* font-size: 3.33333rem; */
   color: var(--secondary,#ff5e14);
 }
 
