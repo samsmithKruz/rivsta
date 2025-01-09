@@ -4493,6 +4493,9 @@ img {
 
 .services-section-s2 .service-grids, .services-section-s3 .service-grids {
   margin: 0 -15px;
+  gap: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
 }
 
 @media (max-width: 767px) {
@@ -4502,7 +4505,7 @@ img {
 }
 
 .services-section-s2 .service-grids .grid, .services-section-s3 .service-grids .grid {
-  width: calc(33.33% - 30px);
+  /* width: calc(33.33% - 30px); */
   float: left;
   margin: 0 15px 50px;
 }
