@@ -2021,7 +2021,9 @@ img {
 
 .header-style-1 .navbar-brand, .header-style-2 .navbar-brand {
   margin-top: 12px;
+  padding: 0;
 }
+
 
 @media (max-width: 991px) {
   .header-style-1 .navbar-brand, .header-style-2 .navbar-brand {
@@ -2035,6 +2037,13 @@ img {
 
 .header-style-1 .navbar-brand img, .header-style-2 .navbar-brand img {
   max-width: 170px;
+  height: 3.5em;
+}
+@media screen and (max-width:991px) {
+  .header-style-1 .navbar-brand img, .header-style-2 .navbar-brand img {
+    height: 100%;
+  }
+  
 }
 
 @media screen and (min-width: 992px) {
@@ -2494,6 +2503,10 @@ img {
 @media (max-width: 991px) {
   .hero-slider .slide-btns {
     margin: 0 auto;
+    display:flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
   }
 }

@@ -1,7 +1,14 @@
 :root{
-    --primary: #0e1629;
-    --secondary: #1495ff;
-    --secondary-hover: #006bde;
-    --secondary-light: #61b8ff;
+    --primary: #321e5c;
+    --secondary: #2cbbd4;
+    --secondary-hover: #99d8e6;
+    --secondary-light: #fbd4d4;
+    --purple: #7f6685;
+    --purple1: #a38aa0;
+    --purple2: #caaec4;
+    --carton-dark: #272322;
+    --carton: #83746c;
+    --carton1: #b4a49c;
+    --carton2: #ccbcb4;
     /* --secondary: #ff5e14; */
 }
