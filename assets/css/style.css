@@ -4546,7 +4546,7 @@ img {
 }
 
 .services-section-s2 .service-grids .details, .services-section-s3 .service-grids .details {
-  padding: 35px 0 0 75px;
+  padding: 35px 0 0 0;
   position: relative;
 }
 
