@@ -22,6 +22,7 @@
     <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
     <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -159,76 +160,171 @@
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12">
-                        <div class="service-grids clearfix">
+                        <style>
+                            .service-grids img {
+                                height: 180px;
+                                width: 100%;
+                                object-fit: cover;
+                                object-position: center;
+                            }
+
+                            .service-grids .details {
+                                display: flex;
+                                gap: 1em;
+                            }
+
+                            .service-grids .details i {
+                                font-size: 2.5em;
+                                color: var(--secondary);
+                            }
+                        </style>
+                        <div class="service-grids ">
                             <div class="grid">
                                 <div class="img-holder">
-                                    <img src="assets/images/services/img-1.jpg" alt="Power & Energy">
+                                    <img src="assets/images/services/sales.jpg" alt>
                                 </div>
                                 <div class="details">
-                                    <i class="fi flaticon-solar-energy"></i>
-                                    <h3><a href="#">Power & Energy</a></h3>
-                                    <p>We provide sustainable energy solutions, including solar power installations and
-                                        renewable energy projects.</p>
+                                    <i class="fa-solid fa-sack-dollar"></i>
+                                    <div>
+                                        <h3><a href="#">Property Sales</a></h3>
+                                        <p>Offering expert guidance to help you buy or sell properties quickly and
+                                            efficiently.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid">
+
+                                <div class="img-holder">
+                                    <img src="assets/images/services/leasing.jpg" alt>
+                                </div>
+                                <div class="details">
+                                    <i class="fa-solid fa-key"></i>
+                                    <div>
+                                        <h3><a href="#">Leasing & Rentals</a></h3>
+                                        <p>Simplifying the process of finding the perfect rental or leasing property to
+                                            suit your needs.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <img src="assets/images/services/img-2.jpg" alt="Mechanical Works">
+                                    <img src="assets/images/services/management.jpg" alt>
                                 </div>
                                 <div class="details">
-                                    <i class="fi flaticon-plug"></i>
-                                    <h3><a href="#">Mechanical Works</a></h3>
-                                    <p>Our expertise in mechanical engineering ensures innovative designs and efficient
-                                        system integrations.</p>
+                                    <i class="fa-solid fa-building-user"></i>
+                                    <div>
+                                        <h3><a href="#">Property Management</a></h3>
+                                        <p>Comprehensive services to maintain and manage your properties hassle-free.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <img src="assets/images/services/img-3.jpg" alt="Petroleum Refinery">
+                                    <img src="assets/images/services/invest.jpg" alt>
                                 </div>
                                 <div class="details">
-                                    <i class="fi flaticon-oil-barrel"></i>
-                                    <h3><a href="#">Petroleum Refinery</a></h3>
-                                    <p>We support refinery operations with advanced technologies to enhance productivity
-                                        and safety standards.</p>
+                                    <i class="fa-solid fa-building-flag"></i>
+                                    <div>
+                                        <h3><a href="#">Real Estate Investment</a></h3>
+                                        <p>Helping you identify profitable opportunities to grow your real estate
+                                            portfolio.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <img src="assets/images/services/img-4.jpg" alt="Oil and Gas">
+                                    <img src="assets/images/services/construction.jpg" alt>
                                 </div>
                                 <div class="details">
-                                    <i class="fi flaticon-oil-1"></i>
-                                    <h3><a href="#">Oil and Gas</a></h3>
-                                    <p>Our oil and gas services cover exploration, extraction, and transportation for
-                                        global energy needs.</p>
+                                    <i class="fa-solid fa-helmet-safety"></i>
+                                    <div>
+                                        <h3><a href="#">Construction</a></h3>
+                                        <p>High-quality construction services tailored to your vision and requirements.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <img src="assets/images/services/img-5.jpg" alt="Logistics Services">
+                                    <img src="assets/images/services/services.jpg" alt>
                                 </div>
                                 <div class="details">
-                                    <i class="fi flaticon-truck"></i>
-                                    <h3><a href="#">Logistics Services</a></h3>
-                                    <p>Efficient and reliable logistics services, ensuring seamless supply chain
-                                        management worldwide.</p>
+                                    <i class="fa-solid fa-house-lock"></i>
+                                    <div>
+                                        <h3><a href="#">Property Services</a></h3>
+                                        <p>Providing maintenance, repairs, and enhancements to keep your property in top
+                                            condition.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <img src="assets/images/services/img-6.jpg" alt="General Industry">
+                                    <img src="assets/images/services/legal.jpg" alt>
                                 </div>
                                 <div class="details">
-                                    <i class="fi flaticon-factory"></i>
-                                    <h3><a href="#">General Industry</a></h3>
-                                    <p>We provide tailored industrial solutions to drive operational efficiency and
-                                        innovation.</p>
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                    <div>
+                                        <h3><a href="#">Legal Services</a></h3>
+                                        <p>Expert legal assistance for real estate transactions and compliance.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/services/consultancy.jpg" alt>
+                                </div>
+                                <div class="details">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                    <div>
+                                        <h3><a href="#">Real Estate Consultancy</a></h3>
+                                        <p>Professional advice to navigate the complexities of real estate decisions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/services/exterior.jpg" alt>
+                                </div>
+                                <div class="details">
+                                    <i class="fa-solid fa-palette"></i>
+                                    <div>
+                                        <h3><a href="#">Interior & Exterior Design</a></h3>
+                                        <p>Transforming spaces with creative and functional design solutions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/services/home.jpg" alt>
+                                </div>
+                                <div class="details">
+                                    <i class="fa-solid fa-paint-roller"></i>
+                                    <div>
+                                        <h3><a href="#">Home Improvement</a></h3>
+                                        <p>Enhancing your home with upgrades that add value and comfort.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid">
+                                <div class="img-holder">
+                                    <img src="assets/images/services/relocate.jpg" alt>
+                                </div>
+                                <div class="details">
+                                    <i class="fa-solid fa-truck"></i>
+                                    <div>
+                                        <h3><a href="#">Relocation Services</a></h3>
+                                        <p>Smooth and stress-free assistance for moving to your new home or office.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div> <!-- end container -->
         </section>
